@@ -1,0 +1,333 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+		nav a{
+			color: white;
+			text-decoration: none;
+			padding: 2%;
+		}
+
+footer {
+    border-top: 2px solid rgba(246, 245, 245, 1);
+    color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	
+	
+}
+#ikonice {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+	
+}
+
+#ikonice a {
+    padding: 5%;
+	
+}
+
+#ikonice a:hover {
+    scale: 150%;
+    transition: all .5s;
+    animation: shake 1s infinite;
+	
+}
+#onamaprvo{
+    height: 600px;
+    background-color:gray;
+    border-top: 2px solid white;
+    position: relative;
+    text-align: right;
+}
+
+#onamap3{
+    display: block;
+    font-size: 25px;
+    width: 70%;
+    margin-top: -5%;
+    margin-left: 10%;
+    padding: 5%;
+	color:white;
+}
+#onamadrugo{
+    height: 650px;
+    background-color: gray;
+    border-top: 2px solid white;
+    position: relative;
+    text-align: left;
+}
+#onamap5{
+    width: 20%;
+    display: block;
+    font-size: 30px;
+    margin-top: -5%;
+    margin-left: 7%;
+    padding: 10%;
+    font-style: italic;
+    text-align: center;
+	color:white;
+}
+#lokacija1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 65%;
+    top: 33%;
+}
+#lokacija1:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lokacija2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 25%;
+    top: 33%;
+}
+#lokacija2:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lokacija22{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 45%;
+    top: 33%;
+}
+#lokacija22:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#mapa{
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    box-shadow: 10px 10px 2px rgba(225,225,225,0.3), 
+    15px 15px 1px rgba(225,225,225,0.2), 
+    20px 20px 0.5px rgba(225,225,225,0.1);;
+    border-radius: 10px;
+	margin-top:-70px;
+}
+#naslov
+{
+	margin-right:45%;
+	color:white;
+}
+#vd{
+    display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-top: -5%;
+    margin-left: 10%;
+    padding: 5%;
+	color:white;
+	text-align:center;
+}
+#lokacija3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 25%;
+    top: 63%;
+}
+#lokacija3:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lokacija4{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 45%;
+    top: 63%;
+}
+#lokacija4:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lokacija5{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 65%;
+    top: 63%;
+}
+#lokacija5:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#alarm
+{
+	 display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-top: -4%;
+    margin-left: 10%;
+    padding: 4%;
+	color:white;
+	text-align:center;
+}
+#naslov1
+{
+	color:white;
+	margin-right:45%
+	
+}
+#lok6{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 85%;
+    top: 50%;
+}
+#lok6:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lok7{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: -2%;
+    top: 30%;
+}
+#lok7:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lok8{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 85%;
+    top: 7%;
+}
+#lok8:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#naslov2
+{
+	color:white;
+	margin-right:45%
+	
+}
+#kp
+{
+	 display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-top: -4%;
+    margin-left: 10%;
+    padding: 4%;
+	color:white;
+	text-align:center;
+}
+#lokacija9{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 30%;
+    top: 57%;
+}
+#lokacija9:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lokacija10{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 51%;
+}
+#lokacija10:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#pp
+{
+	 display: block;
+    font-size: 20px;
+    width: 70%;
+    margin-top: -4%;
+    margin-left: 10%;
+    padding: 4%;
+	color:white;
+	text-align:center;
+}
+#lokacija11{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: -3%;
+    top: 10%;
+}
+#lokacija11:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+#lokacija12{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 85%;
+    top: 51%;
+}
+#lokacija12:hover{
+    animation: shake 1s infinite;
+    scale: 120%;
+    transition: all 1s;
+}
+i
+{
+	color:white;
+}
